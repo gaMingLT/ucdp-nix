@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "fastapi-api"
 version = "0.1.0"
-description = "Test"
-authors = ["Your Name <you@example.com>"]
+description = "Web API Using NIX"
+authors = ["Milan Lagae <you@example.com>"]
 readme = "README.md"
 packages = [{include = "web_api"}]
 
@@ -18,8 +18,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 webapi = "web_api.main:start"
-#videocopy  = "video_copy.main:start"
-
-#videocopy = "video_copy.main:app"
-
-

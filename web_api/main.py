@@ -25,5 +25,4 @@ async def hello():
 def start():
     print("Starting application!")
     asyncio.run(serve(app,config))
-    # uvicorn.run("video_copy.main:app",host="0.0.0.0", port=8080, reload=True)
 

@@ -19,7 +19,6 @@ in
    contents = linuxPkgs.webapi;
    
    config.Cmd = [ "webapi" ];
-   #config.cmd = [ "${linuxPkgs.videocopy}/videocopy" ];	 
   };
 }
 
